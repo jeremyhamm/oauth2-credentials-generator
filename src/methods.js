@@ -6,7 +6,7 @@ try {
 }
 
 /**
- * Generate 32 bit random hex string with optional prepended name
+ * Generate 32 character random hex string with optional prepended name
  * @param   {String}    name - optional value prepended to output string
  * @return  {String}         - generated client id string
  */
@@ -16,11 +16,11 @@ const generateClientId = (name) => {
 }
 
 /**
- * Generate 256 bit random hex string
+ * Generate 256 character random hex string
  * @return  {String} - generated client secret hexadecimal string    
  */
 const generateClientSecret = () => {
-    const buffer = crypto.randomBytes(256);
+    const buffer = crypto.randomBytes(128);
     return buffer.toString('hex');
 }
 
