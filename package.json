@@ -1,0 +1,26 @@
+{
+  "name": "@jeremyhamm/oauth2-credentials-generator",
+  "version": "1.0.0",
+  "description": "A small library for generating client_id and client_secret for your oauth2 application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeremyhamm/oauth2-credentials-generator.git"
+  },
+  "keywords": [
+    "oauth2",
+    "credentials",
+    "client_id",
+    "client_secret"
+  ],
+  "author": "Jeremy Hamm",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeremyhamm/oauth2-credentials-generator/issues"
+  },
+  "homepage": "https://github.com/jeremyhamm/oauth2-credentials-generator#readme"
+}
