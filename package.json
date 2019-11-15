@@ -1,7 +1,7 @@
 {
   "name": "@jeremyhamm/oauth2-credentials-generator",
-  "version": "1.0.0",
-  "description": "A small library, with zero dependencies, for generating client_id and client_secret for your oauth2 application",
+  "version": "1.0.1",
+  "description": "A small, cryptographically secure library, with zero dependencies, for generating client_id and client_secret for your oauth2 application",
   "main": "app.js",
   "scripts": {
     "start": "node src/app.js",
