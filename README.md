@@ -1,7 +1,7 @@
 # Oauth2 Credentials Generator
 
 ## Description
-A small library, with ***zero*** dependencies, for generating [***client_id***](https://tools.ietf.org/html/rfc6749#appendix-A.1) and [***client_secret***](https://tools.ietf.org/html/rfc6749#appendix-A.2) for your oauth2 application.
+A small, cryptographically secure library, with ***zero*** dependencies, for generating [***client_id***](https://tools.ietf.org/html/rfc6749#appendix-A.1) and [***client_secret***](https://tools.ietf.org/html/rfc6749#appendix-A.2) for your oauth2 application.
 
 ## Installation
 `npm i jeremyhamm/oauth2-credentials-generator`
