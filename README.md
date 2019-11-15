@@ -21,3 +21,9 @@ This will append `name + _` to the returned client id.  Useful if creating clien
 const credentials = require('oauth2-credentials-generator');
 const client_id = credentials.clientId('name');
 ```
+
+#### Client Secret
+```
+const credentials = require('oauth2-credentials-generator');
+const client_secret = credentials.clientSecret();
+```
