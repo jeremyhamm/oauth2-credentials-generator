@@ -25,6 +25,6 @@ const generateClientSecret = () => {
 }
 
 module.exports = {
-    generateClientId: generateClientId,
-    generateClientSecret: generateClientSecret
+    generateClientId,
+    generateClientSecret
 }
