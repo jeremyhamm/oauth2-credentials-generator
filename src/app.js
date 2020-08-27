@@ -22,5 +22,5 @@ class Credentials {
 }
 
 module.exports = {
-  Credentials: Credentials
+  Credentials
 }
